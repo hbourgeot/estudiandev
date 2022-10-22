@@ -2,6 +2,7 @@
 title: 'Blog de un Estudiante Dev'
 date: 2022-10-21T18:36:24-04:00
 draft: false
+url: "/"
 ---
 
 # Hola, soy Henrry
@@ -12,7 +13,7 @@ Bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en la
 
 Pues, muchos apuntes que anoto en las clases de las materias/asignaturas que veo en la carrera de Ingeniería de Sistemas, aunque también encontrarás varios apuntes provenientes de cursos que realice.
 
-Intentaré hacer tags con los que sea más fácil encontrar un tema, todos sabemos que los blogs son mejores con ellos.
+Además, encontrarás varios tags con los que se te hará más fácil conseguir los apuntes que necesites.
 
 ### Sobre mí
 
