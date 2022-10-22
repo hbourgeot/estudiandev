@@ -40,7 +40,7 @@ theme = "terminal"
   # updatedDatePrefix = "Updated"
 
   # set all headings to their default size (depending on browser settings)
-  oneHeadingSize = false # default
+  # oneHeadingSize = false # default
 
   # whether to show a page's estimated reading time
   readingTime = true
@@ -56,4 +56,6 @@ theme = "terminal"
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[taxonomies]
+  tag = "tags"
+  category = "categories"
