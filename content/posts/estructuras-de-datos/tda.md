@@ -8,4 +8,6 @@ tags: [tda, estructuras, universidad]
 
 # ¿Qué es un TDA?
 
-Si creías que era el *Trastorno de Déficit de Atención*, pues estás equivocado, un TDA cuando hablamos entorno a estructuras de datos, se refiere a **Tipos de Datos Abstractos**
+Si creías que era el *Trastorno de Déficit de Atención*, pues estás equivocado, un TDA cuando hablamos entorno a estructuras de datos, se refiere a **Tipos de Datos Abstractos**, estos son creados por el programador, son empleados en aquellos fines específicos en los que se necesita crear una estructura de datos abstracta y que vaya más allá de las predefinidas en cada lenguaje de programación.
+
+## *En desarrollo...*
