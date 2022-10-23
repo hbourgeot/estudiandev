@@ -1,7 +1,5 @@
 ---
 title: 'Blog de un Estudiante Dev'
-date: 2022-10-21T18:36:24-04:00
-draft: false
 ---
 
 # Un blog de un *Estudian*te *Dev*eloper

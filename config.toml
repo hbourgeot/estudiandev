@@ -74,5 +74,21 @@ theme = "terminal"
     olderPosts = "Posts más viejos"
     missingContentMessage = "Página no encontrada..."
     missingBackButtonLabel = "Volver a la página principal"
+    categories = "Categorías"
+    
     [languages.es.params.logo]
       logoText = "EstudianDev"
+    
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.es.menu.main]]
+        identifier = "tags"
+        name = "Temas"
+        url = "/tags"
+      [[languages.es.menu.main]]
+        identifier = "category"
+        name = "Categorías"
+        url = "/categories"
