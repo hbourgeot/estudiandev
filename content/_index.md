@@ -2,7 +2,7 @@
 title: 'Blog de un Estudiante Dev'
 ---
 
-# Un blog de un *Estudian*te *Dev*eloper
+# _Un blog de un_ Estudian*te* Dev*eloper*
 
 Hola, soy Henrry, bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
 

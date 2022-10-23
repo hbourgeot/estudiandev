@@ -3,8 +3,11 @@ languageCode = "es-es"
 languageLang = "es"
 copyright = "Henrry Bourgeot. Todos los derechos son reservados"
 defaultContentLanguage = 'es'
+menu = "Menú"
 title = "Un Blog de un Estudiante Dev"
 theme = "terminal"
+
+
 
 [params]
   # dir name of your main content (default is `content/posts`).
