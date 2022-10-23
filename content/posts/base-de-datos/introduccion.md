@@ -2,6 +2,7 @@
 title: 'Introducción a la Base de Datos'
 date: 2022-10-21T20:29:46-04:00
 draft: false
+author: 'Henrry Bourgeot'
 categories: [base de datos, universidad, programación]
 tags: [base de datos, universidad, sql, programas]
 ---
@@ -41,7 +42,7 @@ Como desventajas, existen varias que tienen una gran importancia que se debe ten
 
 Existen varios tipos de usuarios en las bases de datos, estos poseen sus respectivos roles para evitar la pérdida de información almacenada en ellas. Principalmente, se dividen en dos, los usuarios finales y los usuarios informáticos.
 
-### Usuario informático
+### Usuarios informáticos
 
 - **Diseñadores**: estos usuarios comprenden los requisitos relacionados con las bases de Datos, como:
 
@@ -60,5 +61,53 @@ Existen varios tipos de usuarios en las bases de datos, estos poseen sus respect
   4. Realizan todas las **actividades relacionadas con la administración**.
   5. Proporcionan soporte técnico.
 - **Analistas**: ellos se encargan de verificar las opciones que sean similares y actuales, también hacen todo lo necesario para cambiar o actualizar el diseño final para que sean únicos. Además, se aseguran de que el comprador esté satisfecho con el producto.
+- **Desarrolladores**: realizan la codificación y desarrollo para que el diseño final sea una entidad del mundo real.
 
 ### Usuarios Finales
+
+Son los clientes que usan la base de datos para completar a través de consultas la información, aunque en su mayoría no saben cómo se utilizan las bases de datos, por esto mismo, para minimizar la posibilidad de que ocurran errores, su usuario debe estar limitado para que no exista la pérdida de información.
+
+## ¿Qué es un Sistema Gestor de Base de Datos?
+
+Es un conjunto de programas que permiten el desarrollo, acceso y mantenimiento de las bases de datos, seguramente conoces al menos uno de los que te nombraré a continuación:
+
+1. MySQL.
+2. Oracle.
+3. MariaDB.
+4. PostgreSQL.
+5. SQL Server.
+
+Existen otros más que no he mencionado aquí, pero los anteriores son los más usados, personalmente, me gusta PostgreSQL, tú pronto sabrás cuál es tu preferida cuando las uses ;).
+
+### ¿Qué es un Sistema de Base de Datos?
+
+Vulgarmente, son el **Sistema Gestor de BD** que contiene **datos** y posee **usuarios**. Aunque, literalmente, los sistemas gestores que mencioné anteriormente, son Sistemas de BD ya que albergan usuarios. Estos se componen de:
+
+- La estructura Lógica del Usuario.
+- La estructura lógica global.
+- La estructura física.
+
+### Operaciones
+
+Con un Sistema de BD, podemos reslizar varias operaciones, en concreto, se pueden colocar las operaciones en una tabla.
+
+| Sobre el conjunto de datos | Sobre registros específicos |
+| -------------------------- | --------------------------- |
+| Creación                   | Inserción                   |
+| Restauración               | Eliminación                 |
+| Consultas globales         | Modificación                |
+|                            | Consultas con filtros       |
+
+### Funciones
+
+Estos también desarrollan ciertas funciones que son importantes:
+
+1. Descripción o definición.
+2. Manipulación.
+3. Control.
+4. Procedimientos para el administrador:
+   - Transacciones.
+   - Reorganización.
+   - Copias de Seguridad.
+   - Estadísticas.
+   - Carga de ficheros.
