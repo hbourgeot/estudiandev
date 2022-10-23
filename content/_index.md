@@ -2,12 +2,11 @@
 title: 'Blog de un Estudiante Dev'
 date: 2022-10-21T18:36:24-04:00
 draft: false
-url: "/"
 ---
 
-# Hola, soy Henrry
+# Un blog de un *Estudian*te *Dev*eloper
 
-Bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
+Hola, soy Henrry, bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
 
 ## ¿Qué encontrarás aquí?
 
@@ -20,3 +19,7 @@ Además, encontrarás varios tags con los que se te hará más fácil conseguir 
 Tengo 19 años, estoy en el 5to semestre de Ingeniería de Sistemas. Subo contenido a redes sociales como Twitter, TikTok e Instagram, tal vez vuelva a subir contenido pronto...
 
 Puedes encontrar más sobre mi en mi [portafolio](https://www.henrry.online) por si quieres contratarme ;)
+
+# Posts publicados
+
+Aquí debajo encontrarás los posts que haya publicado, como puedes observar, tienen tags y categoías que te serán útiles para encontrar temas en específico que necesites.

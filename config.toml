@@ -1,7 +1,9 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Homepage"
+languageCode = "es-es"
+languageLang = "es"
+copyright = "Henrry Bourgeot. Todos los derechos son reservados"
+defaultContentLanguage = 'es'
+title = "Un Blog de un Estudiante Dev"
 theme = "terminal"
 
 [params]
@@ -32,12 +34,13 @@ theme = "terminal"
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = true
+  enableGitInfo = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  updatedDatePrefix = "Actualizado el"
 
   # set all headings to their default size (depending on browser settings)
   # oneHeadingSize = false # default
@@ -59,3 +62,17 @@ theme = "terminal"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[languages]
+  [languages.es]
+    languageName = "Spanish"
+    weight = 1
+    menuMore = "Mostrar más"
+    readMore = "Leer más"
+    readOtherPosts = "Leer otros posts"
+    newerPosts = "Posts más recientes"
+    olderPosts = "Posts más viejos"
+    missingContentMessage = "Página no encontrada..."
+    missingBackButtonLabel = "Volver a la página principal"
+    [languages.es.params.logo]
+      logoText = "EstudianDev"
