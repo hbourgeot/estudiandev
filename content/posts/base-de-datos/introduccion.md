@@ -36,3 +36,29 @@ Como desventajas, existen varias que tienen una gran importancia que se debe ten
 - Los **gastos son altos**, la instalación es costosa y es necesario capacitar (o despedir) al personal para que desempeñen con buenas prácticas su rol como administrador de base de datos, aunque también es posible que tengan un rol como desarrolador, analista o diseñador (los veremos más adelante).
 - Su implantación es **larga y difícil**.
 - **No son rentables a corto plazo**, es decir, no verás resultados de gran relevancia en dos días, si no, al mes o incluso al año de contratar un servidor óptimo que aloje una base de datos que soporte una determinada cantidad de operaciones concurrentes.
+
+## Tipos de Usuarios en las bases de datos
+
+Existen varios tipos de usuarios en las bases de datos, estos poseen sus respectivos roles para evitar la pérdida de información almacenada en ellas. Principalmente, se dividen en dos, los usuarios finales y los usuarios informáticos.
+
+### Usuario informático
+
+- **Diseñadores**: estos usuarios comprenden los requisitos relacionados con las bases de Datos, como:
+
+  - Diseño.
+  - Apariencia.
+  - Funcionamiento.
+  - Programación.
+  - Costos.
+
+  Cabe destacar que estos son la primer persona que se debe contactar cuando se requiere crear una base de datos, por otro lado, cuando ya han obtenido toda la información necesaria realizan el diseño correspondiente para después entregar este a los programadores la desarrollen en el sistema gestor.
+
+- **Administradores de Bases de Datos**: tienen el control **total**, por esto mismo son comúnmente llamados como _superusuarios_. Un administrador se encarga de definir los esquemas lógicos y físicos, además de gestionar los tres niveles de las bases de datos: interno, conceptual y externo (si quieres conocer más sobre estos, te recomiendo [este enlace](https://daimaouds.wixsite.com/basededatosudoak/single-post/2015/06/21/arquitectura-de-base-de-datos-arquitectura-de-3-niveles#:~:text=Los%20tres%20niveles%20de%20la,%3A%20Interno%2C%20Conceptual%20y%20Externo)), por último, las funciones que realizan son:
+  1. Conceden/revocan **permisos a todos los usuarios**.
+  2. **Diseñan la estructura general**, esto incluye diseños, funcionamiento, procedimiento y motivos.
+  3. Son **responsables del mantenimiento, respaldo y recuperación** de las bases de datos.
+  4. Realizan todas las **actividades relacionadas con la administración**.
+  5. Proporcionan soporte técnico.
+- **Analistas**: ellos se encargan de verificar las opciones que sean similares y actuales, también hacen todo lo necesario para cambiar o actualizar el diseño final para que sean únicos. Además, se aseguran de que el comprador esté satisfecho con el producto.
+
+### Usuarios Finales

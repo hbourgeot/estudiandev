@@ -1,9 +1,9 @@
 ---
-title: "Sistemas de Información"
+title: 'Sistemas de Información'
 date: 2022-10-21T20:30:34-04:00
-draft: false
+draft: true
 ---
 
 # ¿Qué son los sistemas de información?
 
-## *En desarrollo....*
+## _En desarrollo...._
