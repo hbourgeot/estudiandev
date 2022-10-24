@@ -7,8 +7,6 @@ menu = "Menú"
 title = "Un Blog de un Estudiante Dev"
 theme = "terminal"
 
-
-
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -36,7 +34,7 @@ theme = "terminal"
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
+  # showLastUpdated = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
