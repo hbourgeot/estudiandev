@@ -116,3 +116,37 @@ Surge espontáneamente a partir de interacciones y relaciones sociales entre las
 1. Las personas pueden desvelar información confidencial.
 2. Al aplicar sus normas informales, pueden desviarse de los objetivos principales.
 3. Se puede crear un mal ambiente si se transmiten rumores o mentiras entre empleados
+
+## Otros Tipos de Organizaciones.
+
+### Organización Tipo Comité.
+
+Esta organización asigna los diversos asuntos administrativos a un cuerpo de personas que se reúnen para discutirlos y tomar una decisión entre todos.
+
+#### Clasificación.
+
+- **Directivo**: representa a los accionistas de una empresa.
+- **Ejecutivo**: nombrado por el comité directivo para que se ejecuten los acuerdos que el mismo toma.
+
+* **Vigilancia**: personal confiable encargado de inspeccionar las labores de los empleados de la empresa.
+* **Consultivo**: estos están integrados por especialistas que por sus conocimientos emiten dictámenes sobre asuntos que les son consultados.
+
+### Organización por Proyecto.
+
+Esta nos permite llevar a cabo una agrupación de los recursos humanos de la empresa en las tareas más adecuadas, todo esto en pro de la consecución de un objetivo común. Por lo que se podría resumir que, organiza a las personas, asignándolas a determinados proyectos de acuerdo a sus cualidades.
+
+### Organización Matricial.
+
+Consiste en la agrupación de los recursos humanos y materiales que son asignados de forma temporal a los proyectos que se estén realizando, de esta forma se crean equipos con integrantes de diferentes áreas de la empresa con un objetivo en mente. Cabe destacar que, este tipo de organización cuenta con dos tipos de estructuras simultáneamente, lo que es decir, los empleados trabajan con dos cadenas de mando.
+
+#### Ventajas.
+
+- Objetivos del proyecto claros.
+- Libre flujo de información.
+- Uso eficiente de los recursos.
+
+#### Desventajas.
+
+- Genera informes complejos.
+- Sus tiempos de respuesta son lentos.
+- Posibles conflictos de poder.
