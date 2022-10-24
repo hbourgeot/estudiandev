@@ -1,6 +1,9 @@
 ---
 title: 'Conceptos Fundamentales De la Organización'
 date: 2022-10-23T19:12:43-04:00
+author: 'Henrry Bourgeot'
+tags: [organización, administración, empresa, trabajo]
+categories: [teoría de la organización, universidad]
 draft: false
 ---
 
@@ -8,13 +11,13 @@ Antes de comenzar con el contenido relacionado de la organización, se debe tene
 
 ## La Administración en el Proceso Administrativo
 
-Primeramente, la administración se refiere a todos aquellos momentos de gestión de la administración que son orientados a garantizar el cumplimiento de una misión y el logro de los objetivos que la organización ha propuesto. Con esto dicho, el proceso administrativo desenvuelve un papel sumamente en la **administración de una empresa** porque supone la hoja de ruta que se debe seguir en un periodo determinado, para poder alcanzar de esta fgorma los objetivos que sean establecidos.
+Primeramente, la administración se refiere a todos aquellos momentos de gestión de la administración que son orientados a garantizar el cumplimiento de una misión y el logro de los objetivos que la organización ha propuesto. Con esto dicho, el proceso administrativo desenvuelve un papel sumamente en la **administración de una empresa** porque supone la hoja de ruta que se debe seguir en un periodo determinado, para poder alcanzar de esta forma los objetivos que sean establecidos.
 
-Así mismo, según todas las etapas definidas en el proceso administrativo, permitirá a la organización incrementar en gran medida la eficiencia cuando se logren las metas propuestas, lo que supondrá una gran reducción en la cantidad de recursos consumidos, porf lo que se podrán destinar los recursos ahorrados a otras acciones que beneficien a la compañía.
+Así mismo, según todas las etapas definidas en el proceso administrativo, permitirá a la organización incrementar en gran medida la eficiencia cuando se logren las metas propuestas, lo que supondrá una gran reducción en la cantidad de recursos consumidos, por lo que se podrán destinar los recursos ahorrados a otras acciones que beneficien a la compañía.
 
 ## Desarrollo Histórico de las Organizaciones
 
-La evolución de estas se remonta a la época de la segunda guerra mundial, sus efectos se extendieron a todos los campos. En lo político y económico las organizaciones tuvieron que afrontar la conversión de sus economías de guerra por economías de paz, lo cual significó un desafío importante. además, la expansión económica operada en la década inmediata siguiente al terminar la guerra determinó un crecimiento notable de las estructuras de las organizaciones.
+La evolución de estas se remonta a la época de la segunda guerra mundial, sus efectos se extendieron a todos los campos. En lo político y económico las organizaciones tuvieron que afrontar la conversión de sus economías de guerra por economías de paz, lo cual significó un desafío importante. Además, la expansión económica operada en la década inmediata siguiente al terminar la guerra determinó un crecimiento notable de las estructuras de las organizaciones.
 
 Actualmente existen muchos cambios que inciden sustancialmente tanto en las organizaciones como en el campo laboral: se están efectuando cambios que son caracterizados por su celeridad que afectan importantemente a las actividades económicas.
 
@@ -73,7 +76,7 @@ Toda empresa debe tener como meta lograr la mayor producción con los costos má
 - Dirección: implica coordinar el trabajo con cada uno de los departamentos de la empresa para asegurar que vayan en el mismo sentido.
 - Producción: planea el producto, realiza el proceso y controla la calidad de los materiales usados.
 - Recursos humanos: encargados de la selección y formación de los empleados y Desarrollo de las relaciones laborales en la empresa.
-- Funciones financieras: encargados de procesos relacionados al manejo del dinerp, como financiación, operatividad y fiscalidad.
+- Funciones financieras: encargados de procesos relacionados al manejo del dinero, como financiación, operatividad y fiscalidad.
 - Comercialización: investigan el mercado para ofrecer productos más competitivos.
 
 ## Organización Formal
@@ -109,7 +112,7 @@ Surge espontáneamente a partir de interacciones y relaciones sociales entre las
 
 1. Facilita un flujo más rápido de la información.
 2. Facilita la circulación de información excluida en la organización formal.
-3. La comunicación entre los directivos y empleados es más fñuida y bidireccional.
+3. La comunicación entre los directivos y empleados es más fluida y bidireccional.
 
 ### Desventajas
 

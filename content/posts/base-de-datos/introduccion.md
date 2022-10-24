@@ -4,7 +4,7 @@ date: 2022-10-21T20:29:46-04:00
 draft: false
 author: 'Henrry Bourgeot'
 categories: [base de datos, universidad, programación]
-tags: [base de datos, universidad, sql, programas]
+tags: [base de datos sql, programas]
 ---
 
 Seguramente, habrás escuchado acerca de las bases de datos, pero muchas veces uno no tiene una buena introducción a estas, por esto mismo en mi asignatura **Base de Datos** nos dieron una introducción a estas, y quiero compartirte los conocimientos que he adquirido con estos. Primero debes saber que existen varios tipos de bases de datos, las más usadas son las relacionales, que usan el Lenguaje de Consultas Estructurado, conocido como SQL por sus siglas en inglés (_Structured Query Language_), aunque hay otras bases de datos que son NoSQL, como MongoDB que es un _Sistema Gestor_ (lo verás más adelante) _de Base de Datos_ orientado a documentos, la sintaxis de estos documentos es muy parecida a un JSON (JavaScript Object Notation), por ello es usado MongoDB en los stacks fullstack de JavaScript (como MERN o MEAN).
@@ -34,7 +34,7 @@ Como ventajas, existen varias, que están relacionadas (en mayor parte) con los 
 
 Como desventajas, existen varias que tienen una gran importancia que se debe tener en cuenta:
 
-- Los **gastos son altos**, la instalación es costosa y es necesario capacitar (o despedir) al personal para que desempeñen con buenas prácticas su rol como administrador de base de datos, aunque también es posible que tengan un rol como desarrolador, analista o diseñador (los veremos más adelante).
+- Los **gastos son altos**, la instalación es costosa y es necesario capacitar (o despedir) al personal para que desempeñen con buenas prácticas su rol como administrador de base de datos, aunque también es posible que tengan un rol como desarrollador, analista o diseñador (los veremos más adelante).
 - Su implantación es **larga y difícil**.
 - **No son rentables a corto plazo**, es decir, no verás resultados de gran relevancia en dos días, si no, al mes o incluso al año de contratar un servidor óptimo que aloje una base de datos que soporte una determinada cantidad de operaciones concurrentes.
 
@@ -89,7 +89,7 @@ Vulgarmente, son el **Sistema Gestor de BD** que contiene **datos** y posee **us
 
 ### Operaciones
 
-Con un Sistema de BD, podemos reslizar varias operaciones, en concreto, se pueden colocar las operaciones en una tabla.
+Con un Sistema de BD, podemos realizar varias operaciones, en concreto, se pueden colocar las operaciones en una tabla.
 
 | Sobre el conjunto de datos | Sobre registros específicos |
 | -------------------------- | --------------------------- |

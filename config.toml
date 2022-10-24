@@ -3,7 +3,6 @@ languageCode = "es-es"
 languageLang = "es"
 copyright = "Henrry Bourgeot. Todos los derechos son reservados"
 defaultContentLanguage = 'es'
-menu = "Menú"
 title = "Un Blog de un Estudiante Dev"
 theme = "terminal"
 enableGitInfo = true
@@ -76,7 +75,6 @@ enableGitInfo = true
     olderPosts = "Posts más viejos"
     missingContentMessage = "Página no encontrada..."
     missingBackButtonLabel = "Volver a la página principal"
-    categories = "Categorías"
     
     [languages.es.params.logo]
       logoText = "EstudianDev"
