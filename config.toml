@@ -6,6 +6,7 @@ defaultContentLanguage = 'es'
 menu = "Menú"
 title = "Un Blog de un Estudiante Dev"
 theme = "terminal"
+enableGitInfo = true
 
 [params]
   # dir name of your main content (default is `content/posts`).
