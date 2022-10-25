@@ -1,13 +1,19 @@
-baseurl = "/"
+baseurl = "https://estudiandev.site/"
 languageCode = "es-es"
 languageLang = "es"
 copyright = "Henrry Bourgeot. Todos los derechos son reservados"
 defaultContentLanguage = 'es'
-title = "Un Blog de un Estudiante Dev"
+title = "EstudianDev"
 theme = "terminal"
 enableGitInfo = true
+enableEmoji = true
+titleCaseStyle = "Go"
+paginate = 5
 
 [params]
+
+  author = "Henrry Bourgeot"
+  subtitle = "Hola, soy Henrry, bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea."
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -40,7 +46,7 @@ enableGitInfo = true
   # favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  updatedDatePrefix = "Actualizado el"
+  updatedDatePrefix = "Actualizado"
 
   # set all headings to their default size (depending on browser settings)
   # oneHeadingSize = false # default
@@ -92,3 +98,8 @@ enableGitInfo = true
         identifier = "category"
         name = "Categorías"
         url = "/categories"
+
+[permalinks]
+  posts = '/:year/:month/:title/'
+
+
