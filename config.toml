@@ -102,4 +102,11 @@ paginate = 5
 [permalinks]
   posts = '/:year/:month/:title/'
 
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 5
