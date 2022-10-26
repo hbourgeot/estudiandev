@@ -86,6 +86,10 @@ Los datos se pueden transformar en información añadiéndoles valor si se reali
 - Calculando: los datos pueden haber pasado por un proceso previo aplicando matemática o estadística.
 - Condensando: los datos se han podido resumir significativa y concisamente.
 
+## Conocimiento.
+
+El conocimiento es una mezcla de valores  experiencia e información. Es útil para la acción que se origina y aplica en la mente de los conocedores
+
 ## Archivos.
 
 Es importante saber lo que es en programación un **archivo** , se define como una estructura de datos que recibe memoria secundaria o almacenamiento permanente (discos, discos ópticos, entre otros), además, la forma de clasificación de archivos más básica se realiza de acuerdo al formato que reciben estos.
