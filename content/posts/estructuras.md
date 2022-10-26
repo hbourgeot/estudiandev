@@ -87,4 +87,4 @@ Las estructuras de datos poseen rol significativo en la resolución de problemas
 - La selección de una estructura puede incidir sobre la facilidad (o no) con la cual un algoritmo se puede escribir.
 - Al elegir una estructura de datos existe la posibilidad de aumentar o disminuir el requerimiento de espacio de almacenamiento además de otros recursos en una computadora.
 - Del mismo modo puede aumentar o disminuir el tiempo de ejecución del programa.
-- Los algoritmos y las estructuras de datos van de la mano con los principales bloquesde construcción de programas
+- Los algoritmos y las estructuras de datos van de la mano con los principales bloques de construcción de programas

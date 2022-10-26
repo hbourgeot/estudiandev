@@ -1,5 +1,5 @@
 ---
-title: 'Introducción a la Base de Datos'
+title: 'Introducción a las Bases de Datos'
 date: 2022-10-21T20:29:46-04:00
 draft: false
 author: 'Henrry Bourgeot'

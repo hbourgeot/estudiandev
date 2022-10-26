@@ -9,6 +9,7 @@ enableGitInfo = true
 enableEmoji = true
 titleCaseStyle = "Go"
 paginate = 5
+removePathAccents = true
 
 [params]
 
@@ -100,8 +101,7 @@ paginate = 5
         url = "/categories"
 
 [permalinks]
-  posts = '/:year/:month/:title/'
-
+  posts = "/:title"
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
