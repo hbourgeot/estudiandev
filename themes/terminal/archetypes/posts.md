@@ -10,5 +10,5 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-color = "" #color from the theme settings
+color = "blue" #color from the theme settings
 +++
