@@ -5,6 +5,7 @@ author: 'Henrry Bourgeot'
 tags: [organización, administración, empresa, trabajo]
 categories: [teoría de la organización, universidad]
 draft: false
+color: orange
 ---
 
 Antes de comenzar con el contenido relacionado de la organización, se debe tener en cuenta lo importante que es **la administración y el proceso administrativo**, ya que permiten lograr ciertos objetivos que amerita la organización.

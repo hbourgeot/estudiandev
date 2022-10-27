@@ -88,7 +88,7 @@ Los datos se pueden transformar en información añadiéndoles valor si se reali
 
 ## Conocimiento.
 
-El conocimiento es una mezcla de valores  experiencia e información. Es útil para la acción que se origina y aplica en la mente de los conocedores
+El conocimiento es una mezcla de valores experiencia e información. Es útil para la acción que se origina y aplica en la mente de los conocedores
 
 ## Archivos.
 

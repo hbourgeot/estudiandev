@@ -8,7 +8,7 @@ theme = "terminal"
 enableGitInfo = true
 enableEmoji = true
 titleCaseStyle = "Go"
-paginate = 5
+paginate = 3
 removePathAccents = true
 
 [params]
@@ -102,8 +102,10 @@ removePathAccents = true
 
 [permalinks]
   posts = "/:title"
+  categories = "/c/:title"
+  tags = "/t/:title"
 [sitemap]
-  changefreq = 'weekly'
+  changefreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
 
