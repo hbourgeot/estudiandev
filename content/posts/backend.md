@@ -7,6 +7,7 @@ description = "Seguramente, entraste a este post buscando orientarte sobre backe
 cover = ""
 tags = ["backend", "desarrollo web", "cursos", "Platzi"]
 color = "green" #color from the theme settings
+draft = true
 +++
 
 Seguramente, entraste a este post buscando orientarte sobre backend: qué lenguaje aprender, qué base de datos usar, pero no, aquí no verás tanto eso, más bien este post se concentra en las bases del backend, por lo que aquí, encontrarás lo que vas a aprender al desarrollar la parte del servidor de una web.
@@ -58,9 +59,62 @@ Puedes acceder más sobre HTTP en los docs de Mozilla pulsando [aquí](https://d
 
 Existen varios métodos de HTTP, los cuales son:
 
-1. GET:
-2. POST:
-3. PUT:
-4. DELETE:
+1. `GET`: este método solicita una representación de un recurso determinado, los navegadores nos muestran el frontend de una web a través de peticiones GET. Cabe destacar que **sólo** deben recuperar datos.
+2. `HEAD`: pide una respuesta idéntica a la de una petición `GET`, con la excepción que no trae cuerpo de la respuesta, únicamente cabeceras.
+3. `POST`: es muy utilizado actualmente para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o incluso causando efectos secundarios en el servidor.
+4. `PUT`: éste reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición, por lo que podemos decir que **modifica o actualiza** los valores.
+5. `DELETE`: borra un recurso en específico.
+6. `CONNECT`: establece un túnel hacia el servidor identificado por el recurso.
+7. `OPTIONS`: este método es normalmente utilizado para lograr describir las opciones de comunicación para el recurso de destino.
+8. `TRACE`: realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+9. `PATCH`: éste es aplicado cuando se necesita realizar modificaciones parciales a un cierto recurso.
+
+Puedes leer más sobre los métodos de HTTP en (nuevamente) los docs de [Mozilla](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
 
 ### Códigos de Estado
+
+Los códigos de estado (en inglés _Status Code_) son muy importantes, ya que nos avisan el estado de nuestro sitio web, seguramente habrás visto el error **404**, **500** o algún otro, estos siempre tienen un significado, y se clasifican de la siguiente forma:
+
+- 1XX: códigos de estado informativos.
+- 2XX: códigos de estado exitosos.
+- 3XX: códigos de estado redireccionales.
+- 4XX: códigos de estado de error del cliente.
+- 5XX: códigos de estado de error del servidor.
+
+Aquí tienes un enlace a una imagen que te los detalla, proveniente de [Imgur](https://imgur.com/8Ql7ST7):
+
+## Conceptos fundamentales.
+
+Siempre estarás en un entorno donde se hablará mucho de _production_ (producción) y _deploy_ (desplegar), además de _localhost_, _dirección IP_ Y puertos, por lo que es muy importante conocer algunos conceptos fundamentales como _production_, _deploy_ y _localhost_.
+
+### _Production_
+
+Es aquel entorno donde tu sitio web (o aplicación) es visible para todo el mundo, es decir, que el entorno que te facilita el servidor, es lamado _production_, en español, entorno de producción.
+
+### _Deploy_
+
+Es el proceso de pasar tu aplicación web desde tu entorno local (tu computadora o laptop) a un servidor o _production environment_. Lo que se realiza para llevar a cabo este proceso, se debe hacer _push_ (enviar código) a un repositorio remoto como GitHub (sistema de control de versiones en la nube), este repositorio contiene el código fuente de tu proyecto.
+
+### _Localhost_
+
+Es la combinación de la dirección IP y un puerto de tu computadora.
+
+### Servidor
+
+Es una computadora que puede contener una aplicación o sitio web, y distribuye este mediante el protocolo HTTP a todo el internet.
+
+### _The Cloud_ (La nube)
+
+Es un conjunto de servidores que contienen aplicaciones y sitios web que logran hacer que el internet funcione.
+
+### Hosting
+
+Es un espacio en un servidor en el cual tu sitio web será guardado, aunque hay varios tipos de hosting, por ello, debes conocer lo siguiente:
+
+#### IaaS
+
+Es una
+
+#### PaaS
+
+#### SaaS

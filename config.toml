@@ -14,7 +14,7 @@ removePathAccents = true
 [params]
 
   author = "Henrry Bourgeot"
-  subtitle = "Hola, soy Henrry, bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea."
+  subtitle = "Hola, soy Henrry, bienvenido al blog de un estudiante que es Back-End Developer donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea."
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"

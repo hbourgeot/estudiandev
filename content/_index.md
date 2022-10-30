@@ -1,10 +1,6 @@
----
-title: 'Blog de un Estudiante Dev'
----
-
 # _Un blog de un_ Estudian*te* Dev*eloper*
 
-Hola, soy Henrry, bienvenido al blog donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
+Hola, soy Henrry, bienvenido al blog de un **estudian**te que es Back-End **dev**eloper donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
 
 ## ¿Qué encontrarás aquí?
 
