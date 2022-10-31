@@ -6,13 +6,13 @@ authorTwitter = "estudiandev" #do not include @
 description = "Seguramente, entraste a este post buscando orientarte sobre backend: qué lenguaje aprender, qué base de datos usar, pero no, aquí no verás tanto eso, más bien este post se concentra en las bases del backend, por lo que aquí, encontrarás lo que vas a aprender al desarrollar la parte del servidor de una web."
 cover = ""
 tags = ["backend", "desarrollo web", "cursos", "Platzi"]
-color = "green" #color from the theme settings
+color = "red" #color from the theme settings
 draft = true
 +++
 
 Seguramente, entraste a este post buscando orientarte sobre backend: qué lenguaje aprender, qué base de datos usar, pero no, aquí no verás tanto eso, más bien este post se concentra en las bases del backend, por lo que aquí, encontrarás lo que vas a aprender al desarrollar la parte del servidor de una web.
 
-Antes de continuar, tengo que hacer énfasis en que estos son mis apuntes del **Curso de Introducción al Backend** de Platzi
+Antes de continuar, tengo que hacer énfasis en que estos son mis apuntes del **Curso de Introducción al Backend** de Platzi (y otras cosas que añada desde una investigación propia).
 
 ## Framework Vs Librería
 
@@ -38,7 +38,7 @@ Mueve la información mediante un lenguaje llamado XML (_eXtensible Markup Langu
 
 Para poder crear una API basada en REST se debe confiar en otro lenguaje, llamado **JSON** (_JavaScript Object Notation_): es un lenguaje que nos facilita la comunicación entre un frontend y backend, es decir, a través de APIs. Y siempre trabajas con ellos en el backend.
 
-### Datos curiosos sobre el lenguaje JSON en algunos lenguajes de programación.
+### Datos curiosos sobre el lenguaje JSON en algunos lenguajes de programación
 
 - En `Python`, los **diccionarios** tienen la estructura de los JSON.
 - Literalmente, JSON en `JavaScript` son los objetos, de ahí su nombre.
@@ -55,7 +55,7 @@ Cuando accedemos a un dominio, como este blog, lo que en realidad se hace es una
 
 Puedes acceder más sobre HTTP en los docs de Mozilla pulsando [aquí](https://developer.mozilla.org/es/docs/Web/HTTP).
 
-### Métodos de HTTP.
+### Métodos de HTTP
 
 Existen varios métodos de HTTP, los cuales son:
 
@@ -83,13 +83,13 @@ Los códigos de estado (en inglés _Status Code_) son muy importantes, ya que no
 
 Aquí tienes un enlace a una imagen que te los detalla, proveniente de [Imgur](https://imgur.com/8Ql7ST7):
 
-## Conceptos fundamentales.
+## Conceptos fundamentales
 
 Siempre estarás en un entorno donde se hablará mucho de _production_ (producción) y _deploy_ (desplegar), además de _localhost_, _dirección IP_ Y puertos, por lo que es muy importante conocer algunos conceptos fundamentales como _production_, _deploy_ y _localhost_.
 
 ### _Production_
 
-Es aquel entorno donde tu sitio web (o aplicación) es visible para todo el mundo, es decir, que el entorno que te facilita el servidor, es lamado _production_, en español, entorno de producción.
+Es aquel entorno donde tu sitio web (o aplicación) es visible para todo el mundo, es decir, que el entorno que te facilita el servidor, es llamado _production_, en español, entorno de producción.
 
 ### _Deploy_
 
@@ -109,12 +109,50 @@ Es un conjunto de servidores que contienen aplicaciones y sitios web que logran 
 
 ### Hosting
 
-Es un espacio en un servidor en el cual tu sitio web será guardado, aunque hay varios tipos de hosting, por ello, debes conocer lo siguiente:
+Es un espacio en un servidor en el cual tu sitio web será guardado, hay muchas opciones de hosting, puedes optar por un plan de [Hostinger](https://www.hostinger.com) o de [000webhost](https://www.000webhost.com), aunque actualmente también hay otras formas de alojar tu aplicación o sitio web, como los servicios bajo demanda que se encuentran en la nube.
 
-#### IaaS
+### Servicios bajo demanda en la nube
 
-Es una
+De acuerdo a [Clinic Cloud](<[https://](https://clinic-cloud.com/blog/servicios-en-la-nube-tipos-ejemplos/)>) es un nuevo paradigma que surgió con la llegada de la World Wide Web, son utilizados a través del internet, lo que es decir que no están instalados localmente en tu ordenador. Además, las ventajas de estos servicios son totalmente evidentes, porque su uso no está restringido a un único dispositivo, y la seguridad, capacidad de almacenamiento y los recursos de la nube son mucho más mayores que los de un ordenador común.
 
-#### PaaS
+Existen principalmente tres servicios:
 
-#### SaaS
+#### IaaS (Infrastructure as a Service)
+
+En español es _Infraestructura como Servicio_, se utiliza cuando quieres poder tener el control absoluto sobre las cosas más importantes del servidor, como la memoria RAM. Como ejemplos de IaaS tenemos:
+
+- Amazon Web Services (AWS).
+- Microsoft Azure.
+- Linode.
+- Digital Ocean.
+
+Comúnmente, encontrarás dos tipos de IaaS:
+
+1. VPS (Virtual Private Server): tendrás el control de los recursos y modificar estos.
+2. Shared Hosting: es alojamiento compartido, pero se comparten los recursos del servidor, ya que en un mismo servidor vivirán más de un proyecto, por lo que es más barato
+
+#### PaaS (Platform as a Service)
+
+El servidor se encarga de actualizar todas las aplicaciones, firewall, y más, que nos ayudan a complementar ciertas funciones adicionales que permiten el funcionamiento óptimo de nuestro sitio o aplicación web. La diferencia de este contra IaaS es que te va a permitir qué cosas en particular necesita tu sitio web para poder funcionar, ya que tendrás una interfaz gráfica donde colocarás ello, por lo que no tienes que tocar **nada** del computador. Como ejemplos tenemos:
+
+- Google App Engine.
+- Firebase.
+- Heroku.
+- Railway.
+
+#### SaaS (Software as a Service)
+
+Te permite agilitar procesos, son aplicaciones que son personalizables, como WordPress. Muchas veces **no tendrás que tocar el código** ya que todo está hecho. Existen varios ejemplos como:
+
+- WordPress
+- Google Docs
+- Slack
+
+### Endpoint / Rout / Path
+
+Es una sección de la URL de tu proyecto, por ejemplo, mi portafolio www.henrry.online tiene dos endpoints, una API ([](www.henrry.online/api)) y una tienda ([](https://www.henrry.online/store)), y como te fijas después del nombre del dominio sigue un `/` que nos indica el endpoint. Para las API, es común crear los endpoint que comiencen luego de una sección llamada /api, por ejemplo para una API que traiga, cree y modifique los posts más recientes de mi blog, deberían ser algo así las rutas:
+
+- `/api/create-post`: para crear posts.
+- `/api/posts`: para recibir los posts del blog.
+- `/api/modify`: modificar un post
+- `/api/del`: borrar un post

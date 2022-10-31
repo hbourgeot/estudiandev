@@ -1,7 +1,7 @@
 ---
-title: 'Conceptos Fundamentales De la Organización'
+title: "Conceptos Fundamentales De la Organización"
 date: 2022-10-23T19:12:43-04:00
-author: 'Henrry Bourgeot'
+author: "Henrry Bourgeot"
 tags: [organización, administración, empresa, trabajo]
 categories: [teoría de la organización, universidad]
 draft: false
@@ -32,15 +32,15 @@ Digamos que es una estructura ordenada, formada por varias personas que interact
 
 ### Principios Fundamentales
 
-#### 1. Objetivo.
+#### 1. Objetivo
 
 Todas las actividades y tareas de una organización deben girar en función de un objetivo común, este establece el propósito que impulsa la empresa. Así, el objetivo propuesto debe ser general, para que así la meta por alcanzar sea común para todos los departamentos. Es importante mencionar que si la organización no tiene un objetivo común existe la posibilidad de correr el riesgo que cada departamento establezca sus metas que podrían ser contradictorias.
 
-#### 2. Especialización.
+#### 2. Especialización
 
 Los trabajadores deben especializarse en una sola labor, aprovechando así la ventaja o habilidad superior que posee cada integrante, esto ayuda a aumentar la productividad de la empresa. De este modo obtendríamos como resultado que si cada persona tiene un cargo en específico, van desarrollando destrezas y habilidades que permiten maximizar rendimiento y esfuerzo.
 
-#### 3. Jerarquía.
+#### 3. Jerarquía
 
 Establece un centro de autoridad de donde surge el proceso de comunicación sobre las disposiciones generales a seguir para lograr los objetivos. De hecho, esta jerarquía permite lograr un mejor control tanto de las tareas a realizar como de los resultados obtenidos, por lo que permite que los principios de autoridad y responsabilidad se manejen adecuadamente.
 
@@ -60,11 +60,11 @@ Al realizarla correctamente la difusión que corresponde a cada puesto, se maxim
 
 Permite limitar el número de subordinados que dependen de un puesto de mando y que deben reportar a un jefe específico. Lo mejor es que un jefe tenga a cargo como máximo 5 empleados.
 
-#### 8. Coordinación.
+#### 8. Coordinación
 
 Establecido con el propósito de lograr mantener el equilibrio dentro de la organización, es necesario para que todos los departamentos funcionen adecuadamente y para alcanzar los objetivos.
 
-#### 9. Flexibilidad.
+#### 9. Flexibilidad
 
 Se debe considerar que siempre cambian los métodos de producción y de comercialización, por lo tanto se debe estar sujeto a los cambios y realizar los ajustes necesarios.
 
@@ -84,7 +84,7 @@ Toda empresa debe tener como meta lograr la mayor producción con los costos má
 
 Es la organización oficial de la empresa en la que se establece un conjunto de normas, estructuras y procedimientos que permiten ordenar las actividades de la empresa.
 
-### Ventajas
+### Ventajas de la Organización Formal
 
 1. El trabajo manual es parte del intelectual y ejercen sus papeles separadamente.
 2. La presión sobre el jefe es menor.
@@ -92,14 +92,14 @@ Es la organización oficial de la empresa en la que se establece un conjunto de 
 4. Los encargados están especializados.
 5. Mayor eficiencia.
 
-### Desventajas
+### Desventajas de la Organización Formal
 
 1. Puede haber confusión y conflictos si no se respeta la unidad de mando.
 2. Puede ser difícil identificar y establecer la responsabilidad de cada individuo.
 3. Puede no haber una clara definición de autoridad.
 4. Al contar con estructuras complejas, puede carecerse de especialización.
 
-### Tipos
+### Tipos de la Organización Formal
 
 - Lineal: presenta una forma piramidal en la que los órganos que la conforman siguen el principio de unidad de mando.
 - Funcional: aplica el principio Funcional, antiguamente las empresas usaban este tipo para diferenciar las actividades o funciones.
@@ -109,47 +109,46 @@ Es la organización oficial de la empresa en la que se establece un conjunto de 
 
 Surge espontáneamente a partir de interacciones y relaciones sociales entre las personas situadas en ciertas posiciones de la organización formal.
 
-### Ventajas
+### Ventajas de la Organización Informal
 
 1. Facilita un flujo más rápido de la información.
 2. Facilita la circulación de información excluida en la organización formal.
 3. La comunicación entre los directivos y empleados es más fluida y bidireccional.
 
-### Desventajas
+### Desventajas de la Organización Informal
 
 1. Las personas pueden desvelar información confidencial.
 2. Al aplicar sus normas informales, pueden desviarse de los objetivos principales.
 3. Se puede crear un mal ambiente si se transmiten rumores o mentiras entre empleados
 
-## Otros Tipos de Organizaciones.
+## Otros Tipos de Organizaciones
 
-### Organización Tipo Comité.
+### Organización Tipo Comité
 
 Esta organización asigna los diversos asuntos administrativos a un cuerpo de personas que se reúnen para discutirlos y tomar una decisión entre todos.
 
-#### Clasificación.
+#### Clasificación
 
 - **Directivo**: representa a los accionistas de una empresa.
 - **Ejecutivo**: nombrado por el comité directivo para que se ejecuten los acuerdos que el mismo toma.
+- **Vigilancia**: personal confiable encargado de inspeccionar las labores de los empleados de la empresa.
+- **Consultivo**: estos están integrados por especialistas que por sus conocimientos emiten dictámenes sobre asuntos que les son consultados.
 
-* **Vigilancia**: personal confiable encargado de inspeccionar las labores de los empleados de la empresa.
-* **Consultivo**: estos están integrados por especialistas que por sus conocimientos emiten dictámenes sobre asuntos que les son consultados.
-
-### Organización por Proyecto.
+### Organización por Proyecto
 
 Esta nos permite llevar a cabo una agrupación de los recursos humanos de la empresa en las tareas más adecuadas, todo esto en pro de la consecución de un objetivo común. Por lo que se podría resumir que, organiza a las personas, asignándolas a determinados proyectos de acuerdo a sus cualidades.
 
-### Organización Matricial.
+### Organización Matricial
 
 Consiste en la agrupación de los recursos humanos y materiales que son asignados de forma temporal a los proyectos que se estén realizando, de esta forma se crean equipos con integrantes de diferentes áreas de la empresa con un objetivo en mente. Cabe destacar que, este tipo de organización cuenta con dos tipos de estructuras simultáneamente, lo que es decir, los empleados trabajan con dos cadenas de mando.
 
-#### Ventajas.
+#### Ventajas de la Organización Matricial
 
 - Objetivos del proyecto claros.
 - Libre flujo de información.
 - Uso eficiente de los recursos.
 
-#### Desventajas.
+#### Desventajas de la Organización Matricial
 
 - Genera informes complejos.
 - Sus tiempos de respuesta son lentos.

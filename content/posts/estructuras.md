@@ -1,15 +1,16 @@
 ---
-title: 'Tipos y Estructuras de Datos'
+title: "Tipos y Estructuras de Datos"
 date: 2022-10-25T17:31:12-04:00
 draft: false
-author: 'Henrry Bourgeot'
+author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 tags: [estructuras, universidad, datos, variables]
+color: orange
 ---
 
 ## Tipos de Datos
 
-### Qué son?
+### ¿Qué son los Tipos de Datos?
 
 Son definidos como un conjunto de valores que una variable definida puede tomar además de las operaciones que se pueden ejercer sobre la variable o con esta. En [amplitud.com](https://amplitude.com/blog/data-types) lo definen como un atributo asociado con un
 dato que le dice a un sistema computacional cómo se debe interpretar el valor de este.
@@ -45,11 +46,10 @@ Los tipos de datos se dividen principalmente en dos tipos, que posteriormente se
 
 ## Estructuras de Datos
 
-### ¿Qué son?
+### ¿Qué son las Estructuras de Datos?
 
 Las estructuras de datos se refieren a una colección definida de entidades que pertenecen a tipos de datos que son diferentes y dan como resultado una organización de pieza
-de datos interrelacionadas. En [geeksforgeeks.org](https://www.geeksforgeeks.ora/dat
-a-structures/) los definen como un espacio de almacenamiento que es usado para almacenar Y organizar datos, que puede ser accedida y actualizada eficientemente.
+de datos interrelacionadas. En [geeksforgeeks.org](https://www.geeksforgeeks.ora/data-structures/) los definen como un espacio de almacenamiento que es usado para almacenar Y organizar datos, que puede ser accedida y actualizada eficientemente.
 
 ### Tipos
 

@@ -1,11 +1,11 @@
 ---
-title: 'Introducción a las Bases de Datos'
+title: "Introducción a las Bases de Datos"
 date: 2022-10-21T20:29:46-04:00
 draft: false
-author: 'Henrry Bourgeot'
+author: "Henrry Bourgeot"
 categories: [base de datos, universidad, programación]
 tags: [base de datos, sql, programas]
-color: red
+color: orange
 ---
 
 Seguramente, habrás escuchado acerca de las bases de datos, pero muchas veces uno no tiene una buena introducción a estas, por esto mismo en mi asignatura **Base de Datos** nos dieron una introducción a estas, y quiero compartirte los conocimientos que he adquirido con estos. Primero debes saber que existen varios tipos de bases de datos, las más usadas son las relacionales, que usan el Lenguaje de Consultas Estructurado, conocido como SQL por sus siglas en inglés (_Structured Query Language_), aunque hay otras bases de datos que son NoSQL, como MongoDB que es un _Sistema Gestor_ (lo verás más adelante) _de Base de Datos_ orientado a documentos, la sintaxis de estos documentos es muy parecida a un JSON (JavaScript Object Notation), por ello es usado MongoDB en los stacks fullstack de JavaScript (como MERN o MEAN).
@@ -24,7 +24,7 @@ Si esto no te quedó muy claro, tengo una representación gráfica que he realiz
 
 ![Tabla de Base de Datos](/img/tabla-bd.png)
 
-## Ventajas y Desventajas de las Bases de Datos.
+## Ventajas y Desventajas de las Bases de Datos
 
 Como ventajas, existen varias, que están relacionadas (en mayor parte) con los datos.
 

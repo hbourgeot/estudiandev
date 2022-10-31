@@ -103,7 +103,7 @@ removePathAccents = true
 [permalinks]
   posts = "/:title"
   categories = "/c/:title"
-  tags = "/t/:title"
+  
 [sitemap]
   changefreq = 'daily'
   filename = 'sitemap.xml'

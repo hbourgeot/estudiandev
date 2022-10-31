@@ -1,17 +1,18 @@
 ---
-title: 'Introducción a las Estructuras de Datos'
+title: "Introducción a las Estructuras de Datos"
 date: 2022-10-25T19:49:37-04:00
 draft: false
-author: 'Henrry Bourgeot'
+author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 tags: [estructuras, universidad, datos]
+color: orange
 ---
 
 Si estás en este post, seguramente estás comenzando a ver lo que son las **estructuras de datos**, por lo que te recomiendo que primero leas este post antes de pasar a otro de la misma [categoría](/categories/estructuras-de-datos).
 
 Primero, debes conocer lo que es un _Dato_ y sus tipos. Para después continuar con el contenido de este post-
 
-## Dato: Concepto y definición.
+## Dato: Concepto y definición
 
 ### ¿Qué son?
 
@@ -54,11 +55,11 @@ Este proceso consiste en trasladar todos los datos de un dispositivo a otro, por
 
 El procesamiento de datos se define como un conjunto de acciones sobre cualquier tipo de dato, para luego poder obtener información oportuna y útil en el logro de un mayor control y mejorar la toma de decisiones. Este procesamiento de datos consta de 4 etapas:
 
-#### Entrada.
+#### Entrada
 
 En esta etapa se realiza el registro de datos en un medio que sea adecuado para su posterior manejo y procesamiento.
 
-#### Proceso.
+#### Proceso
 
 Es la acción de transformar datos en alguna salida que sea esperada, esta transformación consta de 4 pasos:
 
@@ -67,11 +68,11 @@ Es la acción de transformar datos en alguna salida que sea esperada, esta trans
 3. Calcular: compuesto por procesos aritméticos y operaciones lógicas para convertir los datos en una forma significativa.
 4. Sintetizar: sustituir grandes volúmenes de datos en información sencilla de interpretar.
 
-#### Salida.
+#### Salida
 
 Es la información procesada que se obtiene del ciclo de procesamiento de datos en un medio de salida, bien sea impreso o electrónico.
 
-#### Evaluación de Resultados.
+#### Evaluación de Resultados
 
 Son analizadas las salidas de acuerdo a los objetivos y metas, de acuerdo a esto se puede ejercer nuevas acciones sobre los datos de entrada de ser necesario.
 
@@ -86,35 +87,35 @@ Los datos se pueden transformar en información añadiéndoles valor si se reali
 - Calculando: los datos pueden haber pasado por un proceso previo aplicando matemática o estadística.
 - Condensando: los datos se han podido resumir significativa y concisamente.
 
-## Conocimiento.
+## Conocimiento
 
 El conocimiento es una mezcla de valores experiencia e información. Es útil para la acción que se origina y aplica en la mente de los conocedores
 
-## Archivos.
+## Archivos
 
 Es importante saber lo que es en programación un **archivo** , se define como una estructura de datos que recibe memoria secundaria o almacenamiento permanente (discos, discos ópticos, entre otros), además, la forma de clasificación de archivos más básica se realiza de acuerdo al formato que reciben estos.
 
-### Tipos.
+### Tipos de Archivos
 
 - Binarios: es permanente y está compuesto por registros, y estos a su vez por campos, algo parecido a las tablas de las bases de datos. Se caracterizan por tener un tipo de dato asociado que describe su estructura.
 - Texto: es permanente y no está estructurada, pero está formado por una secuencia de caracteres ASCII.
 
-### Tipos de Acceso.
+### Tipos de Acceso
 
 Se pueden acceder a los archivos de 4 formas distintas, aunque hay dos tipos que se asemejan mucho.
 
-#### Secuencial.
+#### Secuencial
 
 Se accede uno a uno los registros secuencialmente hasta el último o hasta cumplir una condición de búsqueda definida.
 
-#### Random.
+#### Random
 
 Se accede en primera instancia la tabla de índices, para así recuperar la dirección de inicio en donde se encuentra el registro buscado.
 
-#### Dinámico.
+#### Dinámico
 
 Se accede de igual forma que en el random, solo que se recupera la dirección de inicio **de bloque** donde se encuentra el registro buscado. Este tipo de acceso es permitido o usado en archivos con organización secuencial indexada.
 
-#### Directo.
+#### Directo
 
 Se utiliza la función de `hashing` para recuperar los registros, aunque sólo se permite para archivos con organización relativa.

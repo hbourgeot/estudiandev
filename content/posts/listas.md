@@ -1,10 +1,10 @@
 ---
-title: 'Listas'
+title: "Listas"
 date: 2022-10-25T17:37:24-04:00
 draft: false
-author: 'Henrry Bourgeot'
+author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
-cover: 'img/listas.png'
+cover: "img/listas.png"
 tags: [estructuras, universidad, datos, variables, listas]
 ---
 
@@ -28,7 +28,7 @@ En la portada del post, puedes apreciar una imagen de cómo es la representació
 - Normalmente se mantienen en un orden particular, que puede ser ascendente o descendente para números y un orden lexicográfico para datos de tipo `string`.
 - Al igual que contienen punteros al final del nodo, las listas enlazadas contienen una cabecera que nos permite reconocer el inicio de estas. Si la iniciamos con `null`, nos indica que está vacía.
 
-### Operaciones.
+### Operaciones
 
 En una lista enlazada, puedes realizar las siguientes operaciones:
 
@@ -37,7 +37,7 @@ En una lista enlazada, puedes realizar las siguientes operaciones:
 - Modificar elementos.
 - Encontrar elementos.
 
-## Listas en C.
+## Listas en C
 
 Las listas se componen de la siguiente manera:
 
