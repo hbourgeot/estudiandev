@@ -4,7 +4,13 @@ date: 2022-10-23T19:12:43-04:00
 author: "Henrry Bourgeot"
 tags: [organización, administración, empresa, trabajo]
 categories: [teoría de la organización, universidad]
-draft: false
+keywords:
+  [
+    organizacion,
+    universidad,
+    estudiandev,
+    conceptos fundamentales de la organizacion,
+  ]
 color: orange
 ---
 

@@ -5,8 +5,21 @@ draft: false
 author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 tags: [estructuras, universidad, datos, variables]
+keywords:
+  [
+    estructuras de datos,
+    datos,
+    tipos de datos,
+    variables,
+    programacion,
+    universidad,
+    tipos de estructuras de datos,
+  ]
+description: "Capaz has escuchado mucho de este tema, pero se hace muy poco énfasis en ello, por lo que aquí te explico lo que son los tipos y estructuras de datos."
 color: orange
 ---
+
+Capaz has escuchado mucho de este tema, pero se hace muy poco énfasis en ello, por lo que aquí te explico lo que son los tipos y estructuras de datos.
 
 ## Tipos de Datos
 

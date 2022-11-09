@@ -6,6 +6,17 @@ author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 cover: "img/listas.png"
 tags: [estructuras, universidad, datos, variables, listas]
+keywords:
+  [
+    programacion,
+    listas,
+    estructuras de datos,
+    datos,
+    universidad,
+    tda,
+    datos abstractos,
+  ]
+definition: "Las listas enlazadas son una colección lineal de elementos de datos que son llamados nodos. Puedes aprender más en este post sobre ellos"
 ---
 
 Existen dos tipos de Listas, los cuales son **Enlazadas, Circularmente Enlazadas y Doble Enlazadas**. Sin embargo por los momentos verás el primer mencionado.

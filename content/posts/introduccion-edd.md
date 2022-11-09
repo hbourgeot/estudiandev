@@ -5,6 +5,8 @@ draft: false
 author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 tags: [estructuras, universidad, datos]
+keywords: [introduccion, estructuras de datos, programacion, universidad]
+definition: "En este post encontrarás una introducción a las estructuras de datos"
 color: orange
 ---
 

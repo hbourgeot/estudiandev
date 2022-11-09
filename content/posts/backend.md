@@ -3,9 +3,10 @@ title = "Introducción al Backend"
 date = "2022-10-28T20:02:10-04:00"
 author = "Henrry Bourgeot"
 authorTwitter = "estudiandev" #do not include @
-description = "Seguramente, entraste a este post buscando orientarte sobre backend: qué lenguaje aprender, qué base de datos usar, pero no, aquí no verás tanto eso, más bien este post se concentra en las bases del backend, por lo que aquí, encontrarás lo que vas a aprender al desarrollar la parte del servidor de una web."
-cover = ""
+description = "Seguramente,piensas que en este post encontrarás información sobre backend, pero no, aquí no verás eso, más bien este post se concentra en las bases del backend, por lo que aquí, encontrarás lo que vas a aprender al desarrollar la parte del servidor de una web."
 tags = ["backend", "desarrollo web", "cursos", "Platzi"]
+categories = ["autodidacta", "apuntes de platzi", "programación"]
+keywords = ["platzi", "programacion", "estudiandev"]
 color = "red" #color from the theme settings
 draft = true
 +++

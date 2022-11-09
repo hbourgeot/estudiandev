@@ -5,6 +5,8 @@ draft: false
 author: "Henrry Bourgeot"
 categories: [estructuras de datos, universidad]
 tags: [estructuras, universidad, datos, variables]
+keywords: [tda, estructuras de datos, datos, programacion, universidad]
+definition: "Si creías que es un _Trastorno de Déficit de Atención_, pues no sólo es eso, en programación TDA es el acrónimo de **Tipo de Dato Abstracto**, que se refiere a entidades de almacenamiento de datos y las operaciones que son definidas en las mismas."
 color: orange
 ---
 
