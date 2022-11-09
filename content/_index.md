@@ -1,3 +1,7 @@
+---
+description: "Bienvenido al blog de un estudiante developer, donde iré publicando apuntes y cosas de interés sobre lo que aprenda tanto en la universidad como en el mundo de la industria IT."
+---
+
 # _Un blog de un_ Estudian*te* Dev*eloper*
 
 Hola, soy Henrry, bienvenido al blog de un **estudian**te que es Back-End **dev**eloper donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea.
