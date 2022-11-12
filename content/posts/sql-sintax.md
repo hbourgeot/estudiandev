@@ -78,7 +78,7 @@ SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca;
 Comando que detalla la condición que debe satisfacer cada grupo.
 
 ```sql
-SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) > 50000;
+SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) < 50000;
 --                                                         ⬆
 ```
 
@@ -87,7 +87,7 @@ SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje)
 Este comando ordena los registros seleccionados de acuerdo a un orden que es determinado al realizar la consulta.
 
 ```sql
-SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) > 50000 ORDER BY AVG(kilometraje) ASC | DESC;
+SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) < 50000 ORDER BY AVG(kilometraje) ASC | DESC;
 --                                                                                            ⬆
 ```
 
