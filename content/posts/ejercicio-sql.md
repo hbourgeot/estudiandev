@@ -6,7 +6,7 @@ authorTwitter = "estudiandev" #do not include @
 cover = "img/ejercicio-sql.png"
 tags = ["bases de datos", "universidad", "programacion", "mysql"]
 keywords = ["bases de datos", "universidad", "programacion", "mysql", "workbench", "mysql workbench"]
-description = ""
+description = "Seguramente, tienes la curiosidad de cómo un profesor puede plantear un ejercicio de una base de datos, la inserción, actualización, eliminación y consulta de datos, con el ejercicio que verás aquí, lograrás practicar paso a paso lo que veas"
 color = "blue" #color from the theme settings
 +++
 
