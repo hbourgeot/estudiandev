@@ -48,21 +48,48 @@ El lenguaje SQL también tiene cláusulas que son **condiciones de modificación
 
 Este comando especifica la tabla de la cual se van a seleccionar los registros.
 
+```sql
+SELECT * FROM tabla;
+--        ⬆
+```
+
 ### _WHERE_
 
 Este detalla las condiciones que deben reunir los registros que van a ser seleccionados.
+
+```sql
+SELECT campo FROM tabla WHERE campo = "valor";
+--                        ⬆
+```
 
 ### _GROUP BY_
 
 Separa los registros seleccionados en grupos específicos
 
+```sql
+SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca;
+--                                           ⬆
+```
+
+**Nota**: más adelante verás la función avg, y en otros posts verás un ejercicio de SQL.
+
 ### _HAVING_
 
 Comando que detalla la condición que debe satisfacer cada grupo.
 
+```sql
+SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) > 50000;
+--                                                         ⬆
+```
+
 ### _ORDER BY_
 
 Este comando ordena los registros seleccionados de acuerdo a un orden que es determinado al realizar la consulta.
+
+```sql
+SELECT marca, AVG(kilometraje) FROM autos GROUP BY marca HAVING AVG(kilometraje) > 50000 ORDER BY AVG(kilometraje) ASC | DESC;
+--                                                                                            ⬆
+```
 
 ## Operadores
 
@@ -93,12 +120,35 @@ Estas funciones son utilizadas dentro del comando _SELECT_ para luego devolver u
 
 - ### _AVG_
   Calcula el promedio de los valores de un campo específico.
+
+```sql
+SELECT AVG(campo) FROM tabla;
+--     ⬆
+```
+
 - ### _COUNT_
   Esta función devuelve el número de registros de la selección.
+
+```sql
+SELECT COUNT(campo) FROM tabla;
+--       ⬆
+```
+
 - ### _SUM_
+
   Realiza la misma función que _AVG_, solo que en vez de calcular el promedio, devuelve la suma.
+
+  ```sql
+  SELECT SUM(campo) FROM tabla;
+  --      ⬆
+  ```
+
 - ### _MAX_ y _MIN_
   Devuelven el valor más alto y bajo, respectivamente, de un campo especificado.
+  ```sql
+  SELECT MIN(campo), MAX(campo) FROM tabla;
+  --      ⬆           ⬆
+  ```
 
 Por otro lado, SQL contiene varios **tipos de consultas**, tales como:
 
@@ -125,4 +175,4 @@ SELECT * FROM tabla;
 SELECT DISTINCT(campo) FROM tabla;
 ```
 
-En siguientes posts, encontrarás más ejemplos de código donde se usan los comandos de SQL.
+Si quieres observar un ejercicio que verás en evaluaciones en la universidad, te recomiendo que visites [este post](/ejercicio-de-bases-de-datos)
