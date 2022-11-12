@@ -1,6 +1,13 @@
----
-description: "Bienvenido al blog de un estudiante developer, donde iré publicando apuntes y cosas de interés sobre lo que aprenda tanto en la universidad como en el mundo de la industria IT."
----
++++
+date = "2022-10-21T16:58:42-04:00"
+author = "Henrry Bourgeot"
+authorTwitter = "estudiandev" #do not include @
+keywords = ["universidad", "programacion", "base de datos", "sql", "estudiandev", "estudiante", "desarrollador"]
+description = "Bienvenido al blog de un estudiante developer, donde iré publicando apuntes y cosas de interés sobre lo que aprenda tanto en la universidad como en el mundo de la industria IT."
+color = "blue" #color from the theme settings
++++
+
+![EstudianDev](img/cover.png)
 
 # _Un blog de un_ Estudian*te* Dev*eloper*
 

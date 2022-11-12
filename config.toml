@@ -7,7 +7,6 @@ title = "EstudianDev, un blog de un Estudiante Dev"
 theme = "terminal"
 enableGitInfo = true
 enableEmoji = true
-titleCaseStyle = "Go"
 paginate = 3
 removePathAccents = true
 

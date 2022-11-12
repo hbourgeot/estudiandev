@@ -6,6 +6,7 @@ authorTwitter = "estudiandev" #do not include @
 tags = ["universidad", "sql", "programacion"]
 categories = ["bases de datos", "universidad"]
 keywords = ["universidad", "programacion", "base de datos", "sql", "estudiandev"]
+cover = "img/sintaxis.webp"
 description = "En esta página aprenderás lo necesario sobre la sintaxis del lenguaje de consultas estructurado (SQL), comandos, cláusulas, operadores..."
 color = "orange" #color from the theme settings
 +++
