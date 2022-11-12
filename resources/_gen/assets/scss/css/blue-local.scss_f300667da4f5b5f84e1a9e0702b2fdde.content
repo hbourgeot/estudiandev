@@ -155,113 +155,113 @@ select {
       flex: 0 0 auto;
       max-width: 100%;
       text-decoration: none; }
-  .header .menu {
-    margin: 20px 1px; }
-    @media ((max-width: 684px)) {
-      .header .menu {
-        position: absolute;
-        background: #1d212c;
-        box-shadow: 0 10px #1d212c, -10px 10px #1d212c, 10px 10px #1d212c;
-        color: white;
-        border: 2px solid;
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-        z-index: 99;
-        top: 50px;
-        right: 0; }
-        .header .menu.hidden-on-mobile {
-          display: none; } }
-    .header .menu__inner {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      margin: 0;
-      padding: 0; }
-      @media ((max-width: 684px)) {
-        .header .menu__inner--desktop {
-          display: none; } }
-      .header .menu__inner--mobile {
-        display: none; }
-        @media ((max-width: 684px)) {
-          .header .menu__inner--mobile {
-            display: block; } }
-      .header .menu__inner li:not(:last-of-type) {
-        margin-right: 20px;
-        margin-bottom: 10px;
-        flex: 0 0 auto; }
-      @media ((max-width: 684px)) {
-        .header .menu__inner {
-          flex-direction: column;
-          align-items: flex-start;
-          padding: 0; }
-          .header .menu__inner li {
-            margin: 0;
-            padding: 5px; } }
-    .header .menu__sub-inner {
-      position: relative;
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .header .menu__sub-inner:not(:only-child) {
-        margin-left: 20px; }
-      .header .menu__sub-inner-more {
-        position: absolute;
-        background: #1d212c;
-        box-shadow: 0 10px #1d212c, -10px 10px #1d212c, 10px 10px #1d212c;
-        color: white;
-        border: 2px solid;
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-        z-index: 99;
-        top: 35px;
-        left: 0; }
-        .header .menu__sub-inner-more-trigger {
-          color: #23B0FF;
-          user-select: none;
-          cursor: pointer; }
-        .header .menu__sub-inner-more li {
+
+.navigation-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px 1px; }
+  @media (max-width: 684px) {
+    .navigation-menu {
+      margin: 0; } }
+  .navigation-menu__inner {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .navigation-menu__inner > li {
+      flex: 0 0 auto;
+      margin-bottom: 10px; }
+      .navigation-menu__inner > li:not(:last-of-type) {
+        margin-right: 20px; }
+    @media (max-width: 684px) {
+      .navigation-menu__inner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0; }
+        .navigation-menu__inner li {
           margin: 0;
-          padding: 5px;
-          white-space: nowrap; }
-    .header .menu .spacer {
-      flex-grow: 1; }
-    .header .menu .language-selector {
-      position: relative;
-      list-style: none;
-      margin: 0; }
-      .header .menu .language-selector-current {
-        list-style-type: none;
+          padding: 5px; } }
+  .navigation-menu .spacer {
+    flex-grow: 1 !important; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .menu__trigger {
+    margin-right: 0 !important;
+    color: #23B0FF;
+    user-select: none;
+    cursor: pointer; }
+  .menu__dropdown {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background: #1d212c;
+    box-shadow: 0 10px #1d212c, -10px 10px #1d212c, 10px 10px #1d212c;
+    color: white;
+    border: 2px solid;
+    margin: 0;
+    padding: 10px;
+    top: 10px;
+    left: 0;
+    list-style: none;
+    z-index: 99; }
+    .open .menu__dropdown {
+      display: flex; }
+    .menu__dropdown > li {
+      flex: 0 0 auto; }
+      .menu__dropdown > li:not(:last-of-type) {
+        margin-bottom: 10px; }
+      .menu__dropdown > li a {
         display: flex;
-        flex-direction: row;
-        color: #23B0FF;
-        cursor: pointer;
-        margin: 0; }
-      .header .menu .language-selector__more {
-        position: absolute;
-        background: #1d212c;
-        box-shadow: 0 10px #1d212c, -10px 10px #1d212c, 10px 10px #1d212c;
-        color: white;
-        border: 2px solid;
-        margin: 0;
-        padding: 10px;
-        list-style: none;
-        z-index: 99;
-        top: 35px;
-        right: 0; }
-    .header .menu-trigger {
-      display: none;
-      color: #23B0FF;
-      border: 2px solid;
-      margin-left: 10px;
-      height: 100%;
-      padding: 3px 8px;
-      position: relative;
-      cursor: pointer; }
-      @media ((max-width: 684px)) {
-        .header .menu-trigger {
-          display: block; } }
+        padding: 5px; }
+  @media (max-width: 684px) {
+    .menu--desktop {
+      display: none; } }
+  .menu--mobile .menu__trigger {
+    color: #23B0FF;
+    border: 2px solid;
+    margin-left: 10px;
+    height: 100%;
+    padding: 3px 8px;
+    margin-bottom: 0 !important;
+    position: relative;
+    cursor: pointer;
+    display: none; }
+    @media (max-width: 684px) {
+      .menu--mobile .menu__trigger {
+        display: block; } }
+  @media (max-width: 684px) {
+    .menu--mobile .menu__dropdown {
+      left: auto;
+      right: 0; } }
+  .menu--mobile li {
+    flex: 0 0 auto; }
+    .menu--mobile li:not(:last-of-type) {
+      margin-bottom: 10px; }
+  .menu--language-selector .menu__trigger {
+    color: #23B0FF;
+    border: 2px solid;
+    margin-left: 10px;
+    height: 100%;
+    padding: 3px 8px;
+    margin-bottom: 0 !important;
+    position: relative;
+    cursor: pointer; }
+    @media (max-width: 684px) {
+      .menu--language-selector .menu__trigger {
+        display: none; } }
+  .menu--language-selector .menu__dropdown {
+    left: auto;
+    right: 0; }
+
 .logo {
   display: flex;
   align-items: center;
@@ -293,7 +293,7 @@ body {
   font-variant-ligatures: contextual;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%; }
-  @media ((max-width: 684px)) {
+  @media (max-width: 684px) {
     body {
       font-size: 1rem; } }
 .headings--one-size h1,
@@ -391,7 +391,7 @@ pre {
   pre + pre {
     border-top: 0;
     margin-top: -40px; }
-  @media ((max-width: 684px)) {
+  @media (max-width: 684px) {
     pre {
       white-space: pre-wrap;
       word-wrap: break-word; } }
@@ -407,7 +407,7 @@ blockquote {
   border-bottom: 1px solid #23B0FF;
   margin: 40px 0;
   padding: 25px; }
-  @media ((max-width: 684px)) {
+  @media (max-width: 684px) {
     blockquote {
       padding-right: 0; } }
   blockquote p:first-of-type {
@@ -462,7 +462,7 @@ ol {
   ul li,
   ol li {
     position: relative; }
-  @media ((max-width: 684px)) {
+  @media (max-width: 684px) {
     ul,
     ol {
       margin-left: 20px; } }
@@ -501,7 +501,7 @@ mark {
     margin: 0 auto; }
   .container.full {
     max-width: 100%; }
-  @media ((max-width: 684px)) {
+  @media (max-width: 684px) {
     .container {
       padding: 20px; } }
   @media print {
@@ -579,7 +579,7 @@ sup {
     background: transparent;
     margin: 40px 0;
     padding: 20px; }
-    @media ((max-width: 684px)) {
+    @media (max-width: 684px) {
       .post-cover {
         padding: 10px;
         border-width: 10px; } }
@@ -688,7 +688,7 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a {
     margin: 0;
     width: 760px;
     max-width: 100%; }
-    @media ((max-width: 900px)) {
+    @media (max-width: 900px) {
       .footer__inner {
         flex-direction: column; } }
   .footer a {
@@ -703,12 +703,12 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a {
       text-align: center; }
     .footer .copyright > *:first-child:not(:only-child) {
       margin-right: 10px; }
-      @media ((max-width: 900px)) {
+      @media (max-width: 900px) {
         .footer .copyright > *:first-child:not(:only-child) {
           border: none;
           padding: 0;
           margin: 0; } }
-    @media ((max-width: 900px)) {
+    @media (max-width: 900px) {
       .footer .copyright {
         flex-direction: column;
         margin-top: 10px; } }

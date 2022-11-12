@@ -1,13 +1,13 @@
 +++
 date = "2022-10-21T16:58:42-04:00"
-author = "Henrry Bourgeot"
-authorTwitter = "estudiandev" #do not include @
 keywords = ["universidad", "programacion", "base de datos", "sql", "estudiandev", "estudiante", "desarrollador"]
 description = "Bienvenido al blog de un estudiante developer, donde iré publicando apuntes y cosas de interés sobre lo que aprenda tanto en la universidad como en el mundo de la industria IT."
 color = "blue" #color from the theme settings
+cover = "cover.png"
+framed = true
 +++
 
-![EstudianDev](img/cover.png)
+![EstudianDev();](cover.png)
 
 # _Un blog de un_ Estudian*te* Dev*eloper*
 
@@ -24,7 +24,3 @@ Además, encontrarás varios tags con los que se te hará más fácil conseguir 
 Tengo 19 años, estoy en el 5to semestre de Ingeniería de Sistemas. Subo contenido a redes sociales como Twitter, TikTok e Instagram, tal vez vuelva a subir contenido pronto...
 
 Puedes encontrar más sobre mi en mi [portafolio](https://www.henrry.online) por si quieres contratarme ;)
-
-# Posts publicados
-
-Aquí debajo encontrarás los posts que haya publicado, como puedes observar, tienen tags y categoías que te serán útiles para encontrar temas en específico que necesites.
