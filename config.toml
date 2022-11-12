@@ -65,6 +65,10 @@ removePathAccents = true
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 
+[params.twitter]
+  creator = "Henrry Bourgeot"
+  site = "estudiandev.site"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
