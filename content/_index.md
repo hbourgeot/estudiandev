@@ -7,7 +7,7 @@ cover = "img/cover-meta.jpg"
 framed = true
 +++
 
-![EstudianDev();](cover.png)
+![EstudianDev();](img/cover.png)
 
 # _Un blog de un_ Estudian*te* Dev*eloper*
 
