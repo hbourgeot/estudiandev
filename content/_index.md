@@ -3,7 +3,7 @@ date = "2022-10-21T16:58:42-04:00"
 keywords = ["universidad", "programacion", "base de datos", "sql", "estudiandev", "estudiante", "desarrollador"]
 description = "Bienvenido al blog de un estudiante developer, donde iré publicando apuntes y cosas de interés sobre lo que aprenda tanto en la universidad como en el mundo de la industria IT."
 color = "blue" #color from the theme settings
-cover = "cover.png"
+cover = "img/cover-meta.jpg"
 framed = true
 +++
 
