@@ -1,10 +1,10 @@
 ---
-title: "Listas"
+title: 'Listas'
 date: 2022-10-25T17:37:24-04:00
 draft: false
-author: "Henrry Bourgeot"
+author: 'Henrry Bourgeot'
 categories: [estructuras de datos, universidad]
-cover: "img/listas.png"
+cover: 'img/listas.png'
 tags: [estructuras, universidad, datos, variables, listas]
 keywords:
   [
@@ -16,7 +16,7 @@ keywords:
     tda,
     datos abstractos,
   ]
-definition: "Las listas enlazadas son una colección lineal de elementos de datos que son llamados nodos. Puedes aprender más en este post sobre ellos"
+definition: 'Las listas enlazadas son una colección lineal de elementos de datos que son llamados nodos. Puedes aprender más en este post sobre ellos'
 ---
 
 Existen dos tipos de Listas, los cuales son **Enlazadas, Circularmente Enlazadas y Doble Enlazadas**. Sin embargo por los momentos verás el primer mencionado.
@@ -78,3 +78,5 @@ Y así se crearía una lista enlazada:
      return L;
    }
 ```
+
+Si accedes a [este enlace](https://github.com/hbourgeot/ejercicios-cpp/blob/main/listas.cpp) podrás observar un ejercicio en el que se implementa una lista enlazada definida por el propio lenguaje C++.
