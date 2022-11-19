@@ -22,7 +22,7 @@ Al realizar un proyecto de sistemas, siempre se establece en el inicio del proye
   - Necesidades de Datos e Información: en la Documentación e investigación, se recolectó la información que sea necesaria para el sistema.
   - Requerimientos de controles.
 
-Aunque todo esto se realiza al iniciar un proyecto, es sumamente importante conocer las **etapas de un proyecto**, las **técnicas de recolección de datos que existen** y cuáles son los \*_requerimientos de un sistema_.
+Aunque todo esto se realiza al iniciar un proyecto, es sumamente importante conocer las **etapas de un proyecto**, las **técnicas de recolección de datos que existen** y cuáles son los **requerimientos de un sistema**.
 
 ## Etapas de un proyecto
 
