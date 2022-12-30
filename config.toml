@@ -7,7 +7,7 @@ title = "EstudianDev, un blog de un Estudiante Dev"
 theme = "terminal"
 enableGitInfo = true
 enableEmoji = true
-paginate = 3
+paginate = 4
 removePathAccents = true
 
 [params]
@@ -16,7 +16,7 @@ removePathAccents = true
   subtitle = "Hola, soy Henrry, bienvenido al blog de un estudiante que es Back-End Developer donde iré anotando todos los apuntes que vaya anotando en las clases de la universidad, y de los cursos que vea."
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  # contentTypeName = "content/posts"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "blue"
@@ -108,9 +108,9 @@ removePathAccents = true
   categories = "/c/:title"
   
 [sitemap]
-  changefreq = 'daily'
+  changefreq = 'weekly'
   filename = 'sitemap.xml'
-  priority = 0.5
+  priority = 1
 
 [markup.tableOfContents]
   startLevel = 2

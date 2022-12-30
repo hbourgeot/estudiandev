@@ -1,6 +1,6 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = "{{ .Date }}"
+title = "Vuejs"
+date = "2022-12-29T22:09:48-04:00"
 author = ""
 authorTwitter = "" #do not include @
 cover = ""
@@ -10,6 +10,5 @@ description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
-color = "" #color from the theme settings
-draft = true
+color = "blue" #color from the theme settings
 +++
