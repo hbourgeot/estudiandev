@@ -11,4 +11,5 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "blue" #color from the theme settings
+draft = true
 +++
