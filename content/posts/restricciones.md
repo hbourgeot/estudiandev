@@ -4,9 +4,10 @@ date = "2022-11-19T09:20:57-04:00"
 author = "Henrry Bourgeot"
 authorTwitter = "estudiandev" #do not include @
 cover = ""
-tags = ["", ""]
-keywords = ["", ""]
-description = ""
+tags = ["modelo relacional", "base de datos", "sistemas", "relacion", "bd"]
+keywords = ["modelo relacional", "base de datos", "sistemas", "relacion", "bd"]
+categories = ["bases de datos", "universidad"]
+description = "En bases de datos, encontrarás dos tipos de restricciones, las **restricciones inherentes** y las **restricciones semánticas**, estas se encuentran en el modelo ER, y podrás ver lo que son en este breve post."
 color = "blue" #color from the theme settings
 +++
 
